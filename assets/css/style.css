@@ -1,0 +1,110 @@
+html {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/gravel.png);
+    background-repeat: repeat;
+}
+
+.bigBox {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.myName{
+    background-color:#4aaaa5;
+    font-size:40px;
+    color:white;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+    width: 100%;
+    margin:0;
+    padding-bottom: 13px;
+}
+
+.myName:hover {
+    color:white;
+}
+
+
+.myHeader {
+    width: 100%;
+    height:80px;
+    margin: 0;
+    padding: 0;
+    border-bottom:solid 2px rgb(189, 186, 186);
+    background: white;
+
+    
+}
+
+ul.navs {
+    margin-left:19%;   
+    
+}
+
+.about, .portfolio, .contact {
+    color:#777777;
+    text-align: center;
+    height:25px;
+    padding-top:0;
+    width:100px;
+    
+}
+
+.about:hover, .portfolio:hover, .contact:hover {
+    color:#5c5c5c;
+    
+}
+
+.about, .portfolio{
+    border-right:solid 1px rgb(189, 186, 186);
+}
+
+.smallNav {
+    width: 100%;
+    background: white;
+    padding-left: 27%;
+    height:60px;
+    padding-top:5px;
+    margin-top:1px;
+    border-bottom:solid 2px rgb(189, 186, 186);
+
+}
+
+.tabs {
+    margin-top:10px;
+    font-size: 16px;
+    height: 30px;
+    float: left;
+    padding:5px 20px 10px 20px;
+}
+
+.tabs:hover {
+    text-decoration: none;
+}
+
+.pageinfo {
+    clear: both;
+    margin-top: 50px;
+    color:#4aaaa5;
+    border-bottom:solid 2px rgb(189, 186, 186);
+    padding-bottom: 30px;
+    font-family: 'Noticia Text', serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .myName{
+        width:20%;
+        min-width: 230px;
+        margin:0 10%;
+    }
+
+    .smallNav{
+        display: none;
+    }
+    
+}
